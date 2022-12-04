@@ -1,0 +1,6 @@
+./tests/*.log
+./tests/*.xml
+./tests/*.html
+./tests/*.png
+./venv
+.idea
