@@ -12,11 +12,11 @@ Display Date and Time
     Log      ${convert}      console=yes
 
 Variable inside the test case
-    ${name}    set variable    Ashish Singh Kushwah
-    ${age}     set variable    29
-    ${city}    set variable    Gwalior
-    ${state}   set variable    Madhya pradesh
-    log to console    \nEmploye name is ${name} and he is ${age} year's old ${\n}and lives in the ${city} and belong to ${state} state.
+    ${name}    set variable    demo1
+    ${age}     set variable    20
+    ${city}    set variable    Helsinki
+    ${country}   set variable    Finland
+    log to console    \nEmploye name is ${name} and he is ${age} year's old ${\n}and lives in the ${city} and belong to ${country} state.
 
 
 *** Variables ***
